@@ -23,6 +23,7 @@ description: A list of projects aimed at improving education through technology
 
 # List of links in the navigation bar
 navbar-links:
+  PraDigi Projects: "index"
   About PraDigi: "aboutme"
   Resources:
     - About Pratham: "http://www.pratham.org/"
