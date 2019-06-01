@@ -59,6 +59,6 @@ The grammatical functions of prosody include:
 
 The affective function of prosody is the use of prosodic features such as pitch contour, pauses, and word stress to express the speaker’s emotions and attitudes. Prosodic patterns convey different emotions. Happiness, for example, is characterized by a fast speaking rate, rising pitch, high variability, and fast voice onsets, and sadness is nearly the opposite. Such models could help teachers identify which students are making adequate progress.
 
-Source: 
+Reference: 
 
 [https://www.asha.org/uploadedFiles/ASHA/Publications/cicsd/2015S-Behavioral-Measures-to-Evaluate-Prosodic-Skills.pdf](https://www.asha.org/uploadedFiles/ASHA/Publications/cicsd/2015S-Behavioral-Measures-to-Evaluate-Prosodic-Skills.pdf)
