@@ -2,8 +2,7 @@
 layout: post
 title: Assessment of prosody skills
 subtitle: Develop tools for assessment of prosody in English and Indic languages.
-bigimg: /img/prosody.png
-tags: [speech, test]
+tags: [speech, test, asessment, audio signal processing]
 ---
 
 
