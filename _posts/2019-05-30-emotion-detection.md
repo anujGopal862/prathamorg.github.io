@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Assess the developmental needs of the individual child
-subtitle: develop a tool to understand children's reactions & comprehension while watching videos
+subtitle: Develop a tool to understand child's reactions & comprehension while watching videos
 tags: [vision, emotion detection, facial recognition]
 ---
 
