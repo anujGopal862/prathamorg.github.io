@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Creating Knowledge Graphs and Concept Maps based on student's curriculum
+subtitle:
 tags: [text mining]
 ---
 
