@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Creating different personas based on behaviour flows
-subtitle: Developing a ML model trained on ASER data to be used as a standalone testing tool and as a part of adaptive learning solutions
+subtitle:
 tags: [behaviour flow]
 comments: true
 ---
