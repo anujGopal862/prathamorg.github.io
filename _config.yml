@@ -4,20 +4,20 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (https://username.github.io) then use these settings:
-url: "https://prathamapp.github.io"
-baseurl: ""
+#url: "https://prathamapp.github.io"
+#baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
-#url: "http://username.github.io/projectname"
-#baseurl: "/projectname"
+url: "http://prathamOrg.github.io/prathamhackathon"
+baseurl: "/prathamhackathon"
 
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Pratham Digital - PraDigi
+title: Pratham Technology Innovation
 
 # Short description of your site
-description: A list of projects aimed at improving education through technology
+description: A list of projects for hackathons
 
 # --- Navigation bar options --- #
 
@@ -28,7 +28,7 @@ navbar-links:
   Resources:
     - About Pratham: "http://www.pratham.org/"
     - Pratham Content: "http://www.prathamopenschool.org/"
-    - GitHub: "https://github.com/prathamApp/"
+    - GitHub: "https://github.com/prathamOrg/"
   
 
 # Image to show in the navigation bar - image must be a square (width = height)
@@ -74,7 +74,7 @@ author:
 social-network-links:
   rss: true
   email: "digital@pratham.org"
-  github: prathamApp
+  github: prathamOrg
 #  reddit: yourname
 #  google-plus: +DeanAttali
 #  linkedin: daattali
