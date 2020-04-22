@@ -23,7 +23,7 @@ description: A list of projects for hackathons
 
 # List of links in the navigation bar
 navbar-links:
-  PraDigi Projects: "index"
+  Hackathon Projects: "index"
   About PraDigi: "aboutme"
   Resources:
     - About Pratham: "http://www.pratham.org/"
