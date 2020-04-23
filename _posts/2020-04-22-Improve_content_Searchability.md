@@ -24,3 +24,6 @@ comments: true
 
 
 **Details:** POS website currently has all the course related content developed by Pratham for students in different age groups. Correctly tagging each resource based on attributes like the resource type (Eg: video, stories etc), language, subject, topic and age group will help in streamlining the search results on this website and also curate and archive all the content hosted on the website.
+
+<h2><a href="https://docs.google.com/forms/d/e/1FAIpQLScKY71-Hq2lTdgP-k0JIcsVvoYNXaxtYLcRGVLf_xVGdciHlg/viewform?usp=pp_url&entry.123018661=Improve+Content+Search-ability+on+Pratham+Open+School+(POS)+website">
+  Interested in this project? Register Here</a></h2>
