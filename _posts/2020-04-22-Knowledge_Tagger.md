@@ -33,3 +33,6 @@ tags: [text extraction, speech-to-text-synthesis]
 
 
 **Details:**  Currently the POS website has a host of videos related to the course content offered by Pratham. Creating proper tags for the videos will help in archiving the content that is currently on the website. Tagging the content will also help in automatically recommending other videos on the website which are related to the current video.
+
+<h2><a href="https://docs.google.com/forms/d/e/1FAIpQLScKY71-Hq2lTdgP-k0JIcsVvoYNXaxtYLcRGVLf_xVGdciHlg/viewform?usp=pp_url&entry.123018661=Auto-tagging+of+Content">
+  Interested in this project? Register Here</a></h2>
