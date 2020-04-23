@@ -28,3 +28,6 @@ tags: [text mining]
 
 **Details:**
 Creating such concept maps helps students understand the structure and the main concept discussed in a chapter in a quick glance. It helps in understanding complex topics, and understanding the connections between topics through a visual approach which helps in easier retention and recall.
+
+<h2><a href="https://docs.google.com/forms/d/e/1FAIpQLScKY71-Hq2lTdgP-k0JIcsVvoYNXaxtYLcRGVLf_xVGdciHlg/viewform?usp=pp_url&entry.123018661=Creating+Knowledge+Graphs+and+Concept+Maps+based+on+student's+curriculum">
+  Interested in this project? Register Here</a></h2>
