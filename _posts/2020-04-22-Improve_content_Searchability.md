@@ -14,7 +14,7 @@ comments: true
 <table>
   <tr>
     <td>Problem Statement</td>
-    <td>Know-how</td
+    <td>Know-how</td>
   </tr>
   <tr>
     <td>Implement Elastic Search on the website (dependency on keywords for each resource)</td>
