@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fact or Fiction 
+title: Check the scientific validity of a claim linked to COVID-19 
 subtitle:
 tags: [text mining, NLP, deep learning, ML]
 ---
