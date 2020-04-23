@@ -36,3 +36,7 @@ comments: true
 
 
 **Details:** In the current times, a lot of messages containing clips claiming to be that of well-known individuals are being widely circulated across various media platforms. Knowing the authenticity will help to prevent the spread and circulation of such messages. This is especially important during the COVID-19 pandemic so that false information (which is made to look legitimate with such videos) can be stopped from being spread. Creating speaker profiles through speaker diarization will be instrumental in ascertaining the authenticity of the viral audio clips. 
+
+
+<h2><a href="https://docs.google.com/forms/d/e/1FAIpQLScKY71-Hq2lTdgP-k0JIcsVvoYNXaxtYLcRGVLf_xVGdciHlg/viewform?usp=pp_url&entry.123018661=Detect+fake+audio+attribution">
+  Interested in this project? Register Here</a></h2>
