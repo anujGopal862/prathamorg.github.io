@@ -36,3 +36,6 @@ tags: [text mining, NLP, deep learning, ML]
 
 **Details:**
 The lockdown due to the COVID-19 pandemic has increased our reliance on the internet for getting information and the news more than ever. Being able to separate fact from hoax is crucial to deal with this without adding further panic to the already uncertain times. Having a system in place where the authenticity of each such claim can be measured will go a long way in stopping the spread of wrong information.
+
+<h2><a href="https://docs.google.com/forms/d/e/1FAIpQLScKY71-Hq2lTdgP-k0JIcsVvoYNXaxtYLcRGVLf_xVGdciHlg/viewform?usp=pp_url&entry.123018661=Check+the+scientific+validity+of+a+claim+linked+to+COVID-19">
+  Interested in this project? Register Here</a></h2>
