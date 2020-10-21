@@ -1,125 +1,57 @@
-**Automated Diagnostic Tool to measure ASER level**
+# **Automated Diagnostic Tool to measure ASER level**
 
-**Objective**: Create an automated diagnostic tool to measure numeric
-and reading ASER level
+**Objective** : Create an automated diagnostic tool to measure numeric and reading ASER level
 
-**Concept**: Developing an Android-app based tool integrated with an ML
-model that would be trained on ASER data. This tool can be utilized as a
-standalone testing tool and as a part of adaptive learning solutions for
-basic numeracy and literacy in English and Indic languages. The tool
-will accept audios of students reading sentences/paragraphs and
-answering to basic numeric question (addition/subtraction). It will then
-automatically evaluate this data to provide reading and numeracy
-proficiency of children.
+**Concept** : Developing an Android-app based tool integrated with an ML model that would be trained on ASER data. This tool can be utilized as a standalone testing tool and as a part of adaptive learning solutions for basic numeracy and literacy in English and Indic languages. The tool will accept audios of students reading sentences/paragraphs and answering to basic numeric question (addition/subtraction). It will then automatically evaluate this data to provide reading and numeracy proficiency of children.
 
-I**ssues addressed:** Oral evaluation is considered the most effective
-approach right now for basic literacy and spoken fluency. The need of
-trained evaluators for the same, puts a limit on the number of children
-that can be evaluated. Without a diagnostic evaluation it is difficult
-for teachers to provide learning content according to the child's level.
+I **ssues addressed:**  Oral evaluation is considered the most effective approach right now for basic literacy and spoken fluency. The need of trained evaluators for the same, puts a limit on the number of children that can be evaluated. Without a diagnostic evaluation it is difficult for teachers to provide learning content according to the child&#39;s level.
 
-**Details**: We are moving to the era of self and group learning; an
-automated assessment tools would be imperative to drive the motivation
-and check learning outcomes. The model will consume audio samples of a
-child and predict his/her basic numeracy and literacy level. A child can
-be classified in any of the 5 Reading levels(Beginner, Letter level,
-word level, short paragraph level, story level) and 5 Numeracy levels
-(Beginner, Single Number recognition(0-9), Double Number
-recognition(11-99), two digits number subtraction with borrowing, three
-digit number division by one digit number) For this classification, the
-features used will be pronunciation correctness, speaking rate, and
-fluency and calculation correctness for Math problems:
+**Details** : We are moving to the era of self and group learning; an automated assessment tools would be imperative to drive the motivation and check learning outcomes. The model will consume audio samples of a child and predict his/her basic numeracy and literacy level. A child can be classified in any of the 5 Reading levels(Beginner, Letter level, word level, short paragraph level, story level) and 5 Numeracy levels (Beginner, Single Number recognition(0-9), Double Number recognition(11-99), two digits number subtraction with borrowing, three digit number division by one digit number) For this classification, the features used will be pronunciation correctness, speaking rate, and fluency and calculation correctness for Math problems:
 
-● Text/pronunciation mistakes (analyzed through speech to text
-recognition)
+● Text/pronunciation mistakes (analyzed through speech to text recognition)
 
-● No. of pauses and length of pause (analyzed through audio signal
-processing)
+● No. of pauses and length of pause (analyzed through audio signal processing)
 
 ● Calculation mistakes (for Math problems)
 
-Growing on the initial understanding of reading fluency, we hope to
-create oral assessment tools for science, humanities, communication
-skills and more. Moreover, we can recognize children's strengths and
-weaknesses and plan their courses accordingly.
+Growing on the initial understanding of reading fluency, we hope to create oral assessment tools for science, humanities, communication skills and more. Moreover, we can recognize children&#39;s strengths and weaknesses and plan their courses accordingly.
 
 **Project Plan:**
 
 Numeracy Level:
 
-  Step                                                                                                     Know-how                  Status
-  -------------------------------------------------------------------------------------------------------- ------------------------- -------------
-  An android app to collect audio data to be used for testing and training the ML model                    Android Development       Done
-  Develop web-portals to annotate the audios and get all the data annotated                                Web Development           In-progress
-  Audio sample filtering - remove background noise and speaker diarization to extract only child's voice   Audio-signal processing   In-Progress
-  Develop Speech to Text algorithms to convert the filtered audios to text                                 Speech Recognition        In-Progress
-  Assess the numeracy level of the child by comparing the Ground Truth with the child's answers            \-                        Not Started
-  Conceptualize and integrate the designed model with an Android app (Deployment)                          Android Development       Not Started
+| Step | Know-how | Status |
+| --- | --- | --- |
+| An android app to collect audio data to be used for testing and training the ML model | Android Development | Done |
+| Develop web-portals to annotate the audios and get all the data annotated | Web Development | In-progress |
+| Audio sample filtering - remove background noise and speaker diarization to extract only child&#39;s voice | Audio-signal processing | In-Progress |
+| Develop Speech to Text algorithms to convert the filtered audios to text | Speech Recognition | In-Progress |
+| Assess the numeracy level of the child by comparing the Ground Truth with the child&#39;s answers | - | Not Started |
+| Conceptualize and integrate the designed model with an Android app (Deployment) | Android Development | Not Started |
 
 Reading Level:
 
-  Step                                                                                                                                                                                                Know-how                                        Status
-  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------- -------------
-  An android app to collect audio data to be used for testing and training the ML model                                                                                                               Android Development                             Done
-  Develop web-portals to transcribe the audios data                                                                                                                                                   Web Development                                 Done
-  Audio sample filtering - remove background noise and speaker diarization to extract only child's voice                                                                                              Audio-signal processing                         In-Progress
-  Develop Speech to Text algorithms to convert the filtered audios to text                                                                                                                            Speech Recognition                              In-Progress
-  Develop and test ML Model to take text from the filtered audio samples and corresponding questions/text and labels (no. of mistakes and proficiency-level) as input and predict proficiency level   Machine Learning and Deep Learning Algorithms   Not Started
-  Conceptualize and integrate the designed ML model with an Android app (Deployment)                                                                                                                  Android Development                             Not Started
+| Step | Know-how | Status |
+| --- | --- | --- |
+| An android app to collect audio data to be used for testing and training the ML model | Android Development | Done |
+| Develop web-portals to transcribe the audios data | Web Development | Done |
+| Audio sample filtering - remove background noise and speaker diarization to extract only child&#39;s voice | Audio-signal processing | In-Progress |
+| Develop Speech to Text algorithms to convert the filtered audios to text | Speech Recognition | In-Progress |
+| Develop and test ML Model to take text from the filtered audio samples and corresponding questions/text and labels (no. of mistakes and proficiency-level) as input and predict proficiency level | Machine Learning and Deep Learning Algorithms | Not Started |
+| Conceptualize and integrate the designed ML model with an Android app (Deployment) | Android Development | Not Started |
 
-**Progress: **
+**Progress: **
 
--   Data Collection: An Android app has been designed to collect human
-    evaluated training data. This app is being used in different
-    villages of India (Maharashtra, Uttar Pradesh and Rajasthan) to
-    collect audio samples of children reading out different levels of
-    text (letter, word, paragraph and story), numbers (two digit, single
-    digit) and solution to basic numeric problems(subtraction and
-    division) along with the proficiency level marked by the evaluator.
-
--   Data Annotation: The process of manually annotating the numeracy
-    audios and transcribing the reading audios is in process using the
-    web-portals. The interns are actively working on it. Dashboards have
-    been developed to monitor the progress of annotations and
-    transcriptions and assess quality of the data.
-
--   Speech to Text (Numeracy): The accuracy of Google and Azure Speech
-    to Text tools have been tested for our dataset, however both tools
-    did not perform well for both English and regional languages.
-    Several machine learning models for speech recognition have been
-    explored to train on our dataset to get better accuracy. The maximum
-    accuracy achieved so far is 76% using Tensorflow speech commands
-    model. This step is still in progress.
-
--   Speech to Text (Reading): For automated speech recognition from the
-    reading audios, Azure STT will be custom trained on our dataset.
-    This step is in progress.
-
--   ML Model to predict Reading Level Proficiency: Development of ML
-    model to compare the text read by the child and the actual text is
-    in progress. Currently, we are getting accuracy of 86%. We are
-    working on improving the accuracy by exploring various algorithms
-    and feature extraction techniques.
+- Data Collection: An Android app has been designed to collect human evaluated training data. This app is being used in different villages of India (Maharashtra, Uttar Pradesh and Rajasthan) to collect audio samples of children reading out different levels of text (letter, word, paragraph and story), numbers (two digit, single digit) and solution to basic numeric problems(subtraction and division) along with the proficiency level marked by the evaluator.
+- Data Annotation: The process of manually annotating the numeracy audios and transcribing the reading audios is in process using the web-portals. The interns are actively working on it. Dashboards have been developed to monitor the progress of annotations and transcriptions and assess quality of the data.
+- Speech to Text (Numeracy): The accuracy of Google and Azure Speech to Text tools have been tested for our dataset, however both tools did not perform well for both English and regional languages. Several machine learning models for speech recognition have been explored to train on our dataset to get better accuracy. The maximum accuracy achieved so far is 76% using Tensorflow speech commands model. This step is still in progress.
+- Speech to Text (Reading): For automated speech recognition from the reading audios, Azure STT will be custom trained on our dataset. This step is in progress.
+- ML Model to predict Reading Level Proficiency: Development of ML model to compare the text read by the child and the actual text is in progress. Currently, we are getting accuracy of 86%. We are working on improving the accuracy by exploring various algorithms and feature extraction techniques.
 
 Next Steps:
 
--   Complete the transcription and annotation for the collected data.
-
--   To use this data for training speech to text models, the two
-    transcriptions by users should match. We are working on improving
-    the agreement between two transcriptions by identifying common
-    mismatches and creating a final transcription by fixing the errors.
-    After this data is ready, it will be used to custom train Azure
-    Speech to Text
-
--   For numeracy level, we will work on improving quality of the audios
-    by removing noise and silence. Further we will try to improve the
-    accuracy of the models by using more good quality training data.
-    Once we achieve accuracy of \>90%, this model will be deployed on
-    the app.
-
--   Develop ML to predict the reading level proficiency of children by
-    using audio features from the reading audios
-
--   After the ML models are developed, these will be deployed on an
-    Android App
+- Complete the transcription and annotation for the collected data.
+- To use this data for training speech to text models, the two transcriptions by users should match. We are working on improving the agreement between two transcriptions by identifying common mismatches and creating a final transcription by fixing the errors. After this data is ready, it will be used to custom train Azure Speech to Text
+- For numeracy level, we will work on improving quality of the audios by removing noise and silence. Further we will try to improve the accuracy of the models by using more good quality training data. Once we achieve accuracy of \&gt;90%, this model will be deployed on the app.
+- Develop ML to predict the reading level proficiency of children by using audio features from the reading audios
+- After the ML models are developed, these will be deployed on an Android App
