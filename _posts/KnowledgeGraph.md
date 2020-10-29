@@ -1,6 +1,4 @@
-# **Knowledge Graph of**
-
-# **Educational Concepts**
+# **Knowledge Graph of Educational Concepts**
 
 **Objective** : Developing knowledge graph of educational concepts which can be used to build a video recommendation system
 
