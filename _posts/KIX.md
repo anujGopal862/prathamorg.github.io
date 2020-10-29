@@ -1,5 +1,4 @@
-&quot;
-# **KIX&quot; Computerized Adaptive Testing**
+# **KIX; Computerized Adaptive Testing**
 
 **Objective:**  Create Computerized Adaptive Testing platform for student assessment
 
