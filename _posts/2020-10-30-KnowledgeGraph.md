@@ -1,4 +1,8 @@
-# **Knowledge Graph of Educational Concepts**
+---
+layout: post
+title: Knowledge Graph of Educational Concepts
+tags: [text mining]
+---
 
 **Objective** : Developing knowledge graph of educational concepts which can be used to build a video recommendation system
 
