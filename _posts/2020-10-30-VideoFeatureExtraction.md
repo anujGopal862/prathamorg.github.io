@@ -1,4 +1,8 @@
-# **Feature Extraction of Pratham Open School Videos**
+---
+layout: post
+title: Feature Extraction of Pratham Open School Videos
+tags: [video feature extraction]
+---
 
 **Objective** : Understanding the effect of video features such as colors, objects, persons on the viewership of Pratham Open School videos on Youtube
 
