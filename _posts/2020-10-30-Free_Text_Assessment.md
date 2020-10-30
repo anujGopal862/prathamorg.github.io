@@ -1,4 +1,8 @@
-# **Free Text Answer Assessment**
+---
+layout: post
+title: Free Text Answer Assessment
+tags: [text mining]
+---
 
 **Objective** : To automate assessment of short free text answers
 
