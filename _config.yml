@@ -23,7 +23,7 @@ description: AI/ML Projects
 
 # List of links in the navigation bar
 navbar-links:
-  Hackathon Projects: "index"
+  Projects: "index"
   About PraDigi: "aboutme"
   Resources:
     - About Pratham: "http://www.pratham.org/"
