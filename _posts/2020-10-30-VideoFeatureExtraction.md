@@ -4,7 +4,7 @@ title: Feature Extraction of Pratham Open School Videos
 tags: [video feature extraction]
 ---
 
-**Objective** : Understanding the effect of video features such as colors, objects, persons on the viewership of Pratham Open School videos on Youtube
+**Objective:** Understanding the effect of video features such as colors, objects, persons on the viewership of Pratham Open School videos on Youtube
 
 **Concept:** Using Computer Vision, identify objects, colors and number of persons in Pratham Open School videos. This data can be associated with the number of views of these videos on Youtube to see which video features improve the number of views.
 
@@ -12,10 +12,8 @@ tags: [video feature extraction]
 
 | Step | Know-how | Status |
 | --- | --- | --- |
-| Extract Pratham Open School Videos from Youtube |
- | In Progress |
-| Create a repository of the colors and objects to be identified from the videos |
- | In Progress |
+| Extract Pratham Open School Videos from Youtube |    | In Progress |
+| Create a repository of the colors and objects to be identified from the videos |    | In Progress |
 | Using Computer Vision, extract video features such as colors, objects, number of persons from the videos | Video Feature Extraction | In Progress |
 | Create a dashboard using the data generated through the video feature extraction along with the video number of views from Youtube | Data Visualization | Not Started |
 
