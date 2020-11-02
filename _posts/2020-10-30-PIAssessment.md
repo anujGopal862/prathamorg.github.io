@@ -6,28 +6,25 @@ tags: [video feature extraction]
 
 **Objective** : To provide automated feedback on personal interview videos/audios of youth
 
-**Concept** : Developing an android app that will take videos of personal interviews by youth, extract features (video, audio and text) from it, and generate automated feedback on their performance using Machine Learning models
+**Concept** : Developing an android app that will take videos of personal interviews by youth, extract features from it, and generate automated feedback on their performance using Machine Learning models
 
-**Issues addressed:**   Verbal along with non-verbal cues frequently reveal the intention of the youth and reflect his/her emotional reactions to and knowledge of any idea/topic. These can be used to evaluate their inter **-** personal skillsneeded to excel in their career and workplace. Without an automated evaluation tool, it is difficult for instructors/guide to identify these cues and provide guidance to the youth according to their need.
+**Issues addressed:**   Verbal along with non-verbal cues frequently reveal the intention of the youth and reflect his/her emotional reactions to and knowledge of any idea/topic. These can be used to evaluate their inter **-** personal skills needed to excel in their career and workplace. Without an automated evaluation tool, it is difficult for instructors/guide to identify these cues and provide guidance to the youth according to their need.
 
 **Features List:**
 
-| **Text** | **Audio** | **Video** |
+| **Transcription of Speech** | **Audio** | **Video** |
 | --- | --- | --- |
 | Sentiment Analysis | Pitch detection | Eye contact |
 | Grammar Mistakes | Pause duration | Smile detection |
 | Answer Length | Emotion Detection | Hand gesture |
-| Automated Answer Assessment |
- | Body posture |
+| | | Body posture |
 
 **Project Plan:**
 
 | Step | Know-how | Status |
 | --- | --- | --- |
-| Collect data of video and audio personal interview of youth for training of ML models |
- | Done |
-| Transcribe the videos/audios using Speech to Text tools and human transcribers and translate the non-English transcriptions |
- | Done |
+| Collect data of video and audio personal interview of youth for training of ML models |  | Done |
+| Transcribe the videos/audios using Speech to Text tools and human transcribers and translate the non-English transcriptions |  | Done |
 | Audio sample filtering - remove background noise and speaker diarization to extract the interviewee&#39;s part | Audio-signal processing | In-Progress |
 | Text feature extraction (Sentiment analysis, Language Proficiency, Emotion Detection, Automated Assessment of Answer) | Natural Language Processing | In-Progress |
 | Audio feature extraction (Pitch detection Audio emotion, Pause duration) | Audio Feature Extraction | Not Started |
