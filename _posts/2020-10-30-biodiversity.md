@@ -1,9 +1,8 @@
+---
 layout: post
 title: Biodiversity App
-subtitle: Train a model to recognize flora and fauna from images
 tags: [object recognition, vision, classification]
 ---
-
 
 **Objective:** To help children enhance their interest, awareness and knowledge of their local biodiversity
 
