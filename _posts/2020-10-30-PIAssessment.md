@@ -26,7 +26,7 @@ tags: [video feature extraction]
 | Collect data of video and audio personal interview of youth for training of ML models |  | Done |
 | Transcribe the videos/audios using Speech to Text tools and human transcribers and translate the non-English transcriptions |  | Done |
 | Audio sample filtering - remove background noise and speaker diarization to extract the interviewee&#39;s part | Audio-signal processing | In-Progress |
-| Text feature extraction (Sentiment analysis, Language Proficiency, Emotion Detection, Automated Assessment of Answer) | Natural Language Processing | In-Progress |
+| Extracting features from the video transcriptions (Sentiment analysis, Language Proficiency) | Natural Language Processing | In-Progress |
 | Audio feature extraction (Pitch detection Audio emotion, Pause duration) | Audio Feature Extraction | Not Started |
 | Video feature extraction (Smile detection, hand gestures, eye contact, body posture) | Video Feature Extraction | In-progress |
 | Develop ML model to predict the interview performance based on the text, audio and video features extracted | Machine Learning | Not Started |
@@ -48,4 +48,4 @@ English: 11, Hindi:32, Marathi:9, Kannada: 4
 
 - Transcription: The Personal Interview videos/audios have been converted to text using Google/Azure Speech to Text and corrected by human transcribers and non-English transcriptions have been translated to English. Also, the interviewee and interviewer part has been separated.
 - Text Features: Sentiment Analysis is performed on the transcriptions using various dictionary-based methods to get a score of positive/negative sentiment in the interview answers
-- Video Features: Smile detection using Computer Vision is in process
+- Video Features: Smile detection using Computer Vision is in progress
