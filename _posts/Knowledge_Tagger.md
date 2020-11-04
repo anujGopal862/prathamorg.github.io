@@ -6,10 +6,10 @@ tags: [text extraction, speech-to-text-synthesis]
 
 
 
-**Objective:** Evaluate each video to identify key concepts covered and generate tags for implementing elastic search
+**Objective:** Identifying tgas from video scripts for implementing elastic search and improve content searchability
 
 **Concept:** This involves: 
-1. Evaluating each video on the website and identifying the concepts covered in each video.
+1. Evaluating scripts of the video on the website and identifying the concepts covered in each video.
 2. Generating tags for each video based on the concepts covered to implement elastic search
 
 **Issues addressed:** Tagging the content available on the website will help in automatically recommending related videos to the user 
@@ -22,7 +22,7 @@ tags: [text extraction, speech-to-text-synthesis]
     <td>Know-how</td>
   </tr>
   <tr>
-    <td>Identifying knowledge keywords</td>
+    <td>Extracting knowledge keywords from the video scripts</td>
     <td>Text extraction,  speech-to-text synthesis, Video SEO</td>
   </tr>
   <tr>
