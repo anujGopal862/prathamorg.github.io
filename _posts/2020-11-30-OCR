@@ -1,0 +1,20 @@
+---
+layout: post
+title: Developing an Optical Character Recognition tool
+tags: [text mining, image processing]
+---
+
+**Objective** : Developing an Optical Character Recognition tool to convert the images of answers to text for evaluation
+
+**Concept** : To evaluate answers of students handwritten on paper, the image of the page need to be converted into text. This process can be automated to save the human efforts by using a optical character recongnization tool that converts images to text.
+
+**Project Plan:**
+
+| Step | Know-how | Status |
+| --- | --- | --- |
+| Project conceptualization: Explore various methods of developing a  custom optical character recognization tool | | Not started |
+| Perform the various OCR methods | Image Processing, OCR | Not started |
+| Compare the performance and cost of the OCR models to choose the best model | | Not started |
+
+
+**Details** : 
