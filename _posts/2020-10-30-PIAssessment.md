@@ -45,7 +45,7 @@ Automated Assessment system for personal interviews will be highly customizable,
 
 Total videos: 56 (Videos: 22, audios:33)
 
-- Transcription: A pipeline to convert video files to audio files, transcript generation using Azure Speech to text has bee created
+- Transcription: A pipeline to convert video files to audio files, transcript generation using Azure Speech to text has been created
 - Text Features: Sentiment Analysis is performed on the transcriptions using various dictionary-based methods to get a score of positive/negative sentiment in the interview answers
 - Video Features: Smile detection, Eye contact detection , lip bite detection, face obstruction detection has been completed using computer vision models and thresholds have been finalized
 - Web app creation for video submission and report generation has beeen completed
