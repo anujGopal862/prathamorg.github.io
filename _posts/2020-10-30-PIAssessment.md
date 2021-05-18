@@ -14,9 +14,9 @@ tags: [video feature extraction]
 
 | **Transcription of Speech** | **Audio** | **Video** |
 | --- | --- | --- |
-| Sentiment Analysis | Pitch detection | Eye contact |
-| Grammar Mistakes | Pause duration | Smile detection |
-| Answer Length | Emotion Detection | Hand gesture |
+| Sentiment Analysis | Confidence detection | Eye contact |
+| Grammar Mistakes |  | Smile detection |
+| Answer Length |  | Hand gesture |
 | | | Body posture |
 
 **Project Plan:**
@@ -24,12 +24,13 @@ tags: [video feature extraction]
 | Step | Know-how | Status |
 | --- | --- | --- |
 | Collect data of video and audio personal interview of youth for training of ML models |  | Done |
-| Transcribe the videos/audios using Speech to Text tools and human transcribers and translate the non-English transcriptions |  | Done |
-| Audio sample filtering - remove background noise and speaker diarization to extract the interviewee&#39;s part | Audio-signal processing | In-Progress |
-| Extracting features from the video transcriptions (Sentiment analysis, Language Proficiency) | Natural Language Processing | In-Progress |
-| Audio feature extraction (Pitch detection Audio emotion, Pause duration) | Audio Feature Extraction | Not Started |
-| Video feature extraction (Smile detection, hand gestures, eye contact, body posture) | Video Feature Extraction | In-progress |
-| Develop ML model to predict the interview performance based on the text, audio and video features extracted | Machine Learning | Not Started |
+| Pipeline to convert video files to audio files, transcription of audio files to provide input to the NLP code  |  Automatic Speech Recognition | Done |
+| Extracting features from the video transcriptions (Sentiment analysis, Language Proficiency) | Natural Language Processing | completed |
+| Audio feature extraction (Confidence Detection) | Audio Feature Extraction | Features extracted, models indentified for confidence detection |
+| Video feature extraction (Smile detection, hand gestures, eye contact, body posture) | Video Feature Extraction | completed |
+| Web app design and functionality to submit video for processing  | Web app development | completed|
+| Code Integration of different modules of the Web app  | App Integration | In progress|
+| Deployment and Testing of Web app  | App Integration | In progress|
 | Conceptualize and integrate the designed ML model with an Android app (Deployment) | Android Development | Not Started |
 
 **Details** :
@@ -40,12 +41,14 @@ Automated Assessment system for personal interviews will be highly customizable,
 
 **Progress** :
 
-- Data Collection: Data of personal interviews in form of videos and audios have been collected in English, Hindi, Marathi and Kannada
+- Data Collection: Data of personal interviews in form of videos and audios have been collected in English, Hindi, Marathi
 
-Total videos: 56 (Videos: 23, audios:33)
+Total videos: 56 (Videos: 22, audios:33)
 
-English: 11, Hindi:32, Marathi:9, Kannada: 4
-
-- Transcription: The Personal Interview videos/audios have been converted to text using Google/Azure Speech to Text and corrected by human transcribers and non-English transcriptions have been translated to English. Also, the interviewee and interviewer part has been separated.
+- Transcription: A pipeline to convert video files to audio files, transcript generation using Azure Speech to text has bee created
 - Text Features: Sentiment Analysis is performed on the transcriptions using various dictionary-based methods to get a score of positive/negative sentiment in the interview answers
-- Video Features: Smile detection using Computer Vision is in progress
+- Video Features: Smile detection, Eye contact detection , lip bite detection, face obstruction detection has been completed using computer vision models and thresholds have been finalized
+- Web app creation for video submission and report generation has beeen completed
+- Integration of various modules is in progress
+- Initial deployment to AWS was done
+- Final deployment and testing to be done in coming days
