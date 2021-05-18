@@ -26,7 +26,7 @@ tags: [object recognition, vision, classification]
   <tr>
     <td>Develop and test Deep Learning Models to classify images of Plants and Birds into their corresponding species </td>
     <td>Machine Learning and Deep Learning Algorithms</td>
-    <td>Close to 16000 images for 87 plant species and 103 bird species have been scraped from google images for training of the models. Pre-Trained deep learning models trained on the iNaturalist Dataset has been identified and fintuned for Plants and Birds Species. The accuraccy of plants model was ~80% and the birds model was ~85%. The models have been deployed to a web app using flask. Further testing on new data to be done  </td>
+    <td>Close to 16000 images for 87 plant species and 103 bird species have been scraped from google images for training of the models. Pre-Trained deep learning models trained on the iNaturalist Dataset have been identified and fintuned for Plants and Birds Species. The accuraccy of plants model was ~80% and the birds model was ~85%. The models have been deployed to a web app using flask. Further testing on new data to be done  </td>
   </tr>
   <tr>
     <td>Conceptualize and integrate the designed ML model with an Android app. To make API call to get detailed info about the species found (Deployment)</td>
