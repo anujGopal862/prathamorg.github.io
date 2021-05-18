@@ -21,7 +21,7 @@ tags: [object recognition, vision, classification]
   <tr>
     <td>Data collection - develop platform to collect pictures of local flora and fauna along with their names (labeled data)</td>
     <td>Android Development</td>
-    <td>In Progress</td>
+    <td>App development has started. Initial design has been shared by the Apps team</td>
   </tr>
   <tr>
     <td>Develop and test Deep Learning Models to classify images of Plants and Birds into their corresponding species </td>
