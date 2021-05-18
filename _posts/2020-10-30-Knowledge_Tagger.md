@@ -6,7 +6,7 @@ tags: [text extraction, speech-to-text-synthesis]
 
 
 
-**Objective:** Identifying tgas from video scripts for implementing elastic search and improve content searchability
+**Objective:** Identifying tags from video scripts for implementing elastic search and improve content searchability
 
 **Concept:** This involves: 
 1. Evaluating scripts of the video on the website and identifying the concepts covered in each video.
@@ -19,15 +19,19 @@ tags: [text extraction, speech-to-text-synthesis]
 <table>
   <tr>
     <td>Problem Statement</td>
-    <td>Know-how</td>
+    <td>Status</td>
   </tr>
   <tr>
-    <td>Extracting knowledge keywords from the video scripts</td>
-    <td>Text extraction,  speech-to-text synthesis, Video SEO</td>
+    <td>Creation of an exhautive list of science concepts</td>
+    <td>Done</td>
   </tr>
   <tr>
-    <td>Creating Concept Clouds</td>
-    <td>Concept cloud diagrams</td>
+    <td>Extracting knowledge keywords from the video scripts using Yake Algorithm for keyword generation</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>Final list of Tags for science in Hindi and English video scripts on POS website</td>
+    <td>Done</td>
   </tr>
 </table>
 
