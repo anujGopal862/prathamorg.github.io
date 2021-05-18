@@ -12,9 +12,11 @@ tags: [video feature extraction]
 
 | Step | Know-how | Status |
 | --- | --- | --- |
-| Extract Pratham Open School Videos from Youtube |    | In Progress |
-| Create a repository of the colors and objects to be identified from the videos |    | In Progress |
-| Using Computer Vision, extract video features such as colors, objects, number of persons from the videos | Video Feature Extraction | In Progress |
+| Extract Pratham Open School Videos from Youtube |    | Done |
+| Script for extraction of colors data from POS youtube channel |    | Done |
+| Script to identify objects in POS videos  | Video Feature Extraction |Done |
+| Running color detection and Object detection scripts on all POS videos consolidation of data  | Video Feature Extraction |Not started |
+| Finding corelation between colors, objects and number of views | Video Feature Extraction |To be done |
 | Create a dashboard using the data generated through the video feature extraction along with the video number of views from Youtube | Data Visualization | Not Started |
 
 **Details:**
