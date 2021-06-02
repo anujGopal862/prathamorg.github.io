@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Bird Song Identification
 tags: [Audio Feature Extraction]
