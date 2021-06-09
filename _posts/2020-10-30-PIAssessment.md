@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Automated Assessment of Personal Interviews
-tags: [Computer Vision,video feature extraction]
+tags: [Computer Vision,Video Feature Extraction,Speech Recognition, Natural Language Processing]
 ---
 
 **Objective** : To provide automated feedback on personal interview videos/audios of youth
