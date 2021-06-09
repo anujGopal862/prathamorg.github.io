@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Biodiversity App
-tags: [object recognition, vision, classification]
+tags: [Computer Vision, object detection,classification]
 ---
 
 **Objective:** To help children enhance their interest, awareness and knowledge of their local biodiversity
