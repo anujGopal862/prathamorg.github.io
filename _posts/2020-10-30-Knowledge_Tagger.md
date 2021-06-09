@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Auto-tagging of Content
-tags: [text extraction, speech-to-text-synthesis]
+tags: [NLP, Keyword Extraction]
 ---
 
 
