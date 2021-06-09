@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Knowledge Graph of Educational Concepts
-tags: [text mining]
+tags: [Natural Language Understanding]
 ---
 
 **Objective** : Developing knowledge graph of educational concepts which can be used to build a video recommendation system
